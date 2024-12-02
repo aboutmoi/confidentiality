@@ -34,6 +34,6 @@ Contact Us
 
 If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:
 
-Email Address: develeclercq@gmail.com
+Email Address: develeclercq[at]gmail[dot]com
 
 By using Flower Fusion, you acknowledge that you have read and understood this Privacy Policy.
