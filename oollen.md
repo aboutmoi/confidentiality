@@ -25,7 +25,7 @@ Contact pour toute question relative à vos données : **support@ooples.fr**.
 | Jeton de notification de l'appareil (jeton APNs), état de l'autorisation de notification | Votre iPhone | Vous délivrer les notifications ; ne pas en envoyer si vous les avez refusées |
 | Adresse IP | Votre connexion, à chaque requête | Sécurité du service : limitation des tentatives de connexion, journaux techniques |
 
-**Position géographique.** L'application ne la demande que si vous touchez « Utiliser ma position », pour retrouver votre commune. Les coordonnées sont envoyées une fois à notre serveur pour cette recherche, puis **ne sont pas conservées**. L'application ne suit jamais vos déplacements et ne demande pas l'accès à la position en arrière-plan.
+**Position géographique.** L'application ne la demande que si vous touchez « Utiliser ma position », pour retrouver votre commune. Les coordonnées sont envoyées une fois à notre serveur pour cette recherche et **ne sont pas enregistrées dans votre compte** ; comme toute requête, elles peuvent figurer quelques jours dans les journaux techniques du serveur, puis sont effacées. L'application ne suit jamais vos déplacements et ne demande pas l'accès à la position en arrière-plan.
 
 **Âge, taille et poids.** Les versions antérieures d'Oollen (jusqu'à la 2.0) proposaient, à titre facultatif, de renseigner ces trois informations. Elles n'ont jamais servi à aucun traitement et **ne sont plus demandées**. Celles qui ont été saisies restent attachées au compte jusqu'à sa suppression ; vous pouvez en demander l'effacement immédiat à l'adresse de contact.
 
@@ -50,7 +50,7 @@ Contact pour toute question relative à vos données : **support@ooples.fr**.
 |---|---|
 | Compte, prénom, e-mail, commune, réglages, jeton de notification | Tant que le compte existe ; effacés dès la suppression du compte |
 | Check-ins | Tant que le compte existe sur le serveur ; les 90 derniers jours sur votre iPhone |
-| Position géographique | Non conservée |
+| Position géographique | Jamais enregistrée dans le compte ; au plus quelques jours dans les journaux techniques |
 | Sauvegardes de la base de données | 7 jours glissants, puis effacement automatique |
 | Journaux techniques du serveur | Durée limitée, rotation automatique (de l'ordre de quelques jours à quelques semaines) |
 
